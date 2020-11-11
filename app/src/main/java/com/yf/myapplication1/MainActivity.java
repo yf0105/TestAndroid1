@@ -38,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
         Intent sub2=new Intent(this,SubActivity2.class);
         startActivity(sub2);
     }
+    public void toSub3(View view) {
+        Intent sub3=new Intent(this,SubActivity3.class);
+        EditText editText;
+        editText = findViewById(R.id.editTextTextPersonName2);
+
+        sub3.putExtra("txtName",editText.getText().toString());
+        startActivity(sub3);
+    }
+
 
 
     public void toast_onClick(View view) {

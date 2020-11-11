@@ -6,6 +6,7 @@
     <string name="btn3">追加</string>
     <string name="btn4">画面2へ</string>
     <string name="btn5">生成</string>
+    <string name="btn6">データ受渡</string>
     <string name="chk1">チェック項目</string>
     <string name="rbtn1">ラジオボタン</string>
     <string name="rbtn2">トースト</string>
